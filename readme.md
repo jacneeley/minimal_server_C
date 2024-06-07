@@ -21,7 +21,7 @@ wget localhost:8070/index.html
 cat index.html
 ```
 
-<!-- ## Deep Dive
+## Deep Dive
 To start, the socket function from ```<sys/socket.h>``` is needed. 
 
 Synopsis: ```int socket(int domain, int type, int protocol);```
@@ -116,4 +116,4 @@ recv(int sockfd, void buf[.len], size_t len, int flags)
 ```
 char buffer[256] = {0};
 recv(client_fd, buffer, 256, 0);
-``` -->
+``` 
